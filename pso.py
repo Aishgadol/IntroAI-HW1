@@ -1,3 +1,9 @@
+#import lib
+import numpy as np
+import matplotlib.pyplot as plt
+import itertools
+import multiprocessing
+
 def pso(s, d, lb, ub, c1, c2, maxiter ,obj_func, wupdate_func):
     #:param s: number of particles
     #:param d: dimension of a particle
